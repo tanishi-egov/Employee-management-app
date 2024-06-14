@@ -36,17 +36,17 @@ This is a simple Employee Management Application developed using Java and Spring
       "department": "Engineering",
       "salary": 60000
     }
-    - PUT http://localhost:8080/employees/{id}
-      Content-Type: application/json
-      Body:
-      {
-        "firstName": "John",
+  - PUT http://localhost:8080/employees/{id}
+    Content-Type: application/json
+    Body:
+    {
+      "firstName": "John",
         "lastName": "Doe",
         "email": "john.doe@example.com",
         "department": "Marketing",
         "salary": 8000
-      }
-      -DELETE http://localhost:8080/employees/{id}
+    }
+    -DELETE http://localhost:8080/employees/{id}
 
 
 
