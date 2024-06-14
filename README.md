@@ -46,7 +46,7 @@ This is a simple Employee Management Application developed using Java and Spring
         "department": "Marketing",
         "salary": 8000
     }
-    -DELETE http://localhost:8080/employees/{id}
+  - DELETE http://localhost:8080/employees/{id}
 
 
 
